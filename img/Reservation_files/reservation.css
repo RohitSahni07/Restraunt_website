@@ -1,0 +1,68 @@
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+
+.section-intro {
+    height: 820px;
+    background-image:url(img/hotel.jpg);
+    background-size: cover;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-intro h1 {
+    text-align: center;
+    color: #a03333;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.link-to-book {
+    color: #ffffff;
+    display: block;
+    border: 1px solid #ffffff;
+    padding: 1px 1px;
+}
+
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+
+.link-to-book-wrapper {
+    flex: 1;
+}
